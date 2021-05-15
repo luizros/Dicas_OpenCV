@@ -10,7 +10,7 @@ Autor: Unbetables        Update: Luiz Felipe  Date: 08/05c       -
 """
 import cv2
 
-imagem = cv2.imread("Imagens/lena.jpg") # Ler imagem. Lembre de colocar o caminho correto da pasta!
+imagem = cv2.imread("VisaoComp/Imagens/lena.jpg") # Ler imagem. Lembre de colocar o caminho correto da pasta!
 
 imagem = cv2.cvtColor(imagem, cv2.COLOR_RGB2GRAY) # Converte de RGB para tons de cinza
 

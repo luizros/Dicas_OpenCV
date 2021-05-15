@@ -17,7 +17,7 @@ Vamos fazer alguns exemplos de histogramas usando imagens binárias, em tons de 
 
 import cv2
 
-imagem = cv2.imread("Imagens/banana_binaria.bmp",0) #  O parâmetro 0 foi utilizado na função imread. Ele indica a leitura da imagem em tons de cinza; por esse motivo, os pixels brancos são representados pelo valor 255 e os pretos por 0.
+imagem = cv2.imread("VisaoComp/Imagens/banana_binaria.bmp",0) #  O parâmetro 0 foi utilizado na função imread. Ele indica a leitura da imagem em tons de cinza; por esse motivo, os pixels brancos são representados pelo valor 255 e os pretos por 0.
 
 x, y = imagem.shape
 totalpixelsBranco = 0
@@ -42,7 +42,7 @@ print("Digite 1 para ver o histograma da imagem binária\nDigite 2 para ver o hi
 opcao = int(input())
 
 if opcao == 1:
-    imagem = cv2.imread("Imagens/banana_binaria.bmp", 0)
+    imagem = cv2.imread("VisaoComp/Imagens/banana_binaria.bmp", 0)
     cv2.imshow('Banana - Digite qualquer tecla para continuar', imagem)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
@@ -50,7 +50,7 @@ if opcao == 1:
     grafico.show()
 elif opcao == 2:
     # Histograma para imagens cinza
-    imgGray = cv2.imread("Imagens/frutas3.jpg")
+    imgGray = cv2.imread("VisaoComp/Imagens/frutas3.jpg")
     imgGray = cv2.cvtColor(imgGray, cv2.COLOR_RGB2GRAY)
     cv2.imshow('Frutas em cinza', imgGray)
     cv2.waitKey(0)

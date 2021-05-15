@@ -20,9 +20,9 @@ cv2.imshow("Canal Verde", verde)
 cv2.imshow("Canal Vermelho", vermelho)
 
 #Salvando	imagens	dos	canais	separados
-cv2.imwrite("Imagens/frutas-canal-vermelho.jpeg",	vermelho)
-cv2.imwrite("Imagens/frutas-canal-verde.jpeg",	verde)
-cv2.imwrite("Imagens/frutas-canal-azul.jpeg", azul)
+cv2.imwrite("VisaoComp/Imagens/frutas-canal-vermelho.jpeg",	vermelho)
+cv2.imwrite("VisaoComp/Imagens/frutas-canal-verde.jpeg",	verde)
+cv2.imwrite("VisaoComp/Imagens/frutas-canal-azul.jpeg", azul)
 
 imagem = cv2.merge((azul,verde,vermelho))
 cv2.imshow("Imagem combinada", imagem)
