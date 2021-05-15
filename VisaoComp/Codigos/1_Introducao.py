@@ -1,8 +1,8 @@
 """
 ------------------------------------------------------------------
-Theme: Carregando imagens a partir de arquivos                   -
-Company: Universidy of Brasília                                  -
-Author: Unbetables        Update: Luiz Felipe  Date: 08/05      -    
+Titulo: Carregando imagens a partir de arquivos                   -
+Compania: Universidade de Brasília                                  -
+Autor: Unbetables        Update: Luiz Felipe  Date: 08/05      -    
 ------------------------------------------------------------------
 
 """
