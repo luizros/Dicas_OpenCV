@@ -1,6 +1,6 @@
 """
 ------------------------------------------------------------------
-Tema: Carregando videos                                          -
+Titulo: Carregando videos                                        -
 Compania: Universidade de Brasília                               -
 Autor: Unbetables        Update: Luiz Felipe  Date: 08/05        -    
 ------------------------------------------------------------------
