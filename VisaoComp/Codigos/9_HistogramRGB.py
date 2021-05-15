@@ -1,5 +1,5 @@
 """------------------------------------------------------------------
-Theme: Carregando imagens a partir de arquivos                   -
+Theme: Histogramas no espaço RGB                  -
 Company: Universidy of Brasília                                  -
 Author: Unbetables        Update: Luiz Felipe  Date: 08/05       -    
 ------------------------------------------------------------------
