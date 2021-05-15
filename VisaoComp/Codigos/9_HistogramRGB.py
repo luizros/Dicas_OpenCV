@@ -20,7 +20,7 @@ for i, col in enumerate(color):
     
 cv2.imshow("Imagem Original", imagem)
 plt.xlabel('Valores de pixels') # Legenda do eixo x 
-plt.ylabel('No. de pixelsixels') # Legenda do eixo y
+plt.ylabel('Nº de pixels') # Legenda do eixo y
 plt.show() # Mostra o gráfico
 cv2.waitKey(0) # Quebra as janelas quando digitar qlq tecla
 cv2.destroyAllWindows()
