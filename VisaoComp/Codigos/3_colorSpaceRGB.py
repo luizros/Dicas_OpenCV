@@ -1,8 +1,8 @@
 """
 ------------------------------------------------------------------
-Theme: Trabalhando com imagens em tons de cinza                  -
-Company: Universidy of Brasília                                  -
-Author: Unbetables        Update: Luiz Felipe  Date: 08/05       -    
+Titulo: Trabalhando com imagens no espaço RGB                    -
+Compania: Universidade de Brasília                               -
+Autor: Unbetables        Update: Luiz Felipe  Date: 08/05        -    
 ------------------------------------------------------------------
 
 """

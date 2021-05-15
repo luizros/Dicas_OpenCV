@@ -1,8 +1,10 @@
-"""---------------------------------------------------------------
-Theme: Histogramas no espaço RGB                                 -
-Company: Universidy of Brasília                                  -
-Author: Unbetables        Update: Luiz Felipe  Date: 08/05       -    
+"""
 ------------------------------------------------------------------
+Titulo: Histogramas de imagens RGB usando OPENCV e Pyplot        -
+Compania: Universidade de Brasília                               -
+Autor: Unbetables        Update: Luiz Felipe  Date: 08/05        -    
+------------------------------------------------------------------
+
 """
 import cv2
 import numpy as np 

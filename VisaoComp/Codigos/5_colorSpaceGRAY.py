@@ -1,8 +1,8 @@
 """
 ------------------------------------------------------------------
-Theme: Trabalhando com imagens em tons de cinza                  -
-Company: Universidy of Brasília                                  -
-Author: Unbetables        Update: Luiz Felipe  Date: 08/05      -    
+Titulo: Trabalhando com imagens em tons de cinza                 -
+Compania: Universidade de Brasília                               -
+Autor: Unbetables        Update: Luiz Felipe  Date: 08/05c       -    
 ------------------------------------------------------------------
 
 É válido mencionar que a imagem em tons de cinza, após a conversão, é gerada a partir da soma ponderada dos canais de cor vermelho, verde e azul. Nessa soma, os canais vermelho e verde apresentam um peso (coeficiente de ponderação) maior quando comparado ao canal azul, justamente pelo fato do olho humano ser mais sensível a essas cores.
