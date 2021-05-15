@@ -1,5 +1,5 @@
-"""------------------------------------------------------------------
-Theme: Histogramas no espaço RGB                  -
+"""---------------------------------------------------------------
+Theme: Histogramas no espaço RGB                                 -
 Company: Universidy of Brasília                                  -
 Author: Unbetables        Update: Luiz Felipe  Date: 08/05       -    
 ------------------------------------------------------------------

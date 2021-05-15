@@ -2,7 +2,7 @@
 ------------------------------------------------------------------
 Theme: Trabalhando com imagens em tons de cinza                  -
 Company: Universidy of Brasília                                  -
-Author: Unbetables        Update: Luiz Felipe  Date: 08/05      -    
+Author: Unbetables        Update: Luiz Felipe  Date: 08/05       -    
 ------------------------------------------------------------------
 
 """

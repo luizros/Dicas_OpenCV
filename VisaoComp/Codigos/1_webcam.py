@@ -1,8 +1,8 @@
 """
 ------------------------------------------------------------------
-Tema: Carregando	imagens	a	partir	de	videos               -
+Tema: Carregando videos                                          -
 Compania: Universidade de Brasília                               -
-Autor: Unbetables        Update: Luiz Felipe  Date: 08/05       -    
+Autor: Unbetables        Update: Luiz Felipe  Date: 08/05        -    
 ------------------------------------------------------------------
 """
 
