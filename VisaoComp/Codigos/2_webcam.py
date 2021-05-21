@@ -1,6 +1,6 @@
 """
 ------------------------------------------------------------------
-Titulo: Carregando videos                                        -
+Titulo: Carregando videos da webcam                              -
 Compania: Universidade de Brasília                               -
 Autor: Unbetables        Update: Luiz Felipe  Date: 08/05        -    
 ------------------------------------------------------------------
@@ -9,14 +9,24 @@ Autor: Unbetables        Update: Luiz Felipe  Date: 08/05        -
 import numpy as np
 import cv2
 
-captura = cv2.VideoCapture(0) # A função VideoCapture() é bem parecida com a imread(), sendo a única diferença sua forma de capturar, que neste caso, são vídeos. Dessa forma essa função captura videos da webcam quando recebe os parâmetros inteiros de 0 até n, sendo n o número de de webcans do seu desktop
+# A função VideoCapture() é bem parecida com a imread(), sendo a única diferença sua 
+# forma de exibir o video, que nada é do que imagens sendo exibidas numa determinada
+# frequência(quadros per segundos). O método VideoCapture(0) recebe os parâmetros in
+# teiros de 0 até n, sendo n o número de dispositivos de captura conectados em ordem
+# no seu desktop
+captura = cv2.VideoCapture(0)
 
 while True:
 
-    ret, frame = captura.read() # cap.read () retorna um bool (True / False). Se o quadro for lido corretamente, será True. Portanto, você pode verificar o final do vídeo verificando este valor de retorno.
-    cv2.imshow("Imagem", frame) # mostra cada frame para o usuário
+    # cap.read() retorna um bool (True / False). Se o quadro for lido corretamente, será
+    # True. Portanto, você pode verificar o final do vídeo verificando este valor de retorno.
+    ret, frame = captura.read()
+     
+    # mostra cada frame para o usuário
+    cv2.imshow("Imagem", frame) 
     
-    if cv2.waitKey(1) & 0xFF == ord("q"): # Espera o usuário pressionar a letra 'q' do teclado
+    # Espera o usuário pressionar a tecla 'q' do teclado
+    if cv2.waitKey(1) & 0xFF == ord("q"):
         break # quebra o loop infinito
     
 captura.release()
