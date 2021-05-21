@@ -10,7 +10,7 @@ import cv2
 import numpy as np 
 import matplotlib.pyplot as plt
 
-imagem = cv2.imread("VisaoComp/Imagens/lena.jpg")
+imagem = cv2.imread("Imagens/lena.jpg")
 
 # Geralmente, o OpenCV trata o espaço de cor RGB (red, green, blue) como
 # BGR (blue, green, red), invertendo a ordem dos canais. Por este motivo,
