@@ -26,7 +26,7 @@ escala e claridade.
 
 import cv2
 
-imagem = cv2.imread("Imagens/lena.jpg")
+imagem = cv2.imread("VisaoComp/Imagens/lena.jpg")
 
 imagem = cv2.cvtColor(imagem, cv2.COLOR_BGR2HSV)
 
