@@ -14,7 +14,7 @@ import numpy as np
 # EXIBINDO IMAGENS NA TELA COM OPENCV E PYPLOT 
 
 # Este comando lê a imagem e retorna uma matriz de pixels em formato BGR
-img = cv2.imread('Imagens/lena.jpg')
+img = cv2.imread('VisaoComp/Imagens/lena.jpg')
 
 # A função imshow mostra a imagem na tela
 cv2.imshow("Imagem", img)
