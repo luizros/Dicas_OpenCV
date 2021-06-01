@@ -9,7 +9,7 @@ No ano de 1982, Ballard e Brown, na obra Computer Vision, definiram Visão Compu
 
 Sendo radiação eletromagnética, a luz apresenta um comportamento ondulatório caracterizado por sua frequência $f$ e comprimento de onda $λ$. A faixa do espectro eletromagnético à qual o sistema visual humano é sensível se estende aproximadamente de $400$ a $770 nm$ e denomina-se luz visível. Radiação eletromagnética com comprimentos de onda fora desta faixa não é percebida pelo olho humano. Dentro dessa faixa, o olho percebe comprimentos de onda diferentes como cores distintas, sendo que fontes de radiação com um único comprimento de onda denominam-se monocromáticas e a cor da radiação denomina-se cor espectral pura. O espectro eletromagnético é a distribuição da intensidade da radiaçãoeletromagnética com relação ao seu comprimento de onda e/ ou freqüência. Na figura abaixo temos o espectro eletromagnético visível.
 
-![espectro eletromagnético](Imagens/../../Imagens/espectro_eletromagnetico.png)
+![espectro eletromagnético](https://upload.wikimedia.org/wikipedia/commons/0/0a/EM_spectrum_pt_2.svg)
 
 ### Modelos cromáticos
 
