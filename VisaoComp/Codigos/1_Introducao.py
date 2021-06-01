@@ -16,8 +16,6 @@ import numpy as np
 # Este comando lê a imagem e retorna uma matriz de pixels em formato BGR
 img = cv2.imread('VisaoComp/Imagens/lena.jpg')
 
-# A função imshow mostra a imagem na tela
-cv2.imshow("Imagem", img)
 
 # Vamos exibir também a mesma imagem, mas agora com o comando imshow().
 # Como a img está em BGR, precisamos colocar ela em RGB para exibila na
@@ -26,6 +24,9 @@ plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 
 # Vamos exibir também utilizando o método show() do pyplot
 plt.show()
+
+# A função imshow mostra a imagem na tela
+cv2.imshow("Imagem", img)
 
 # A função waitKey quando recebe como parâmetro o inteiro 0, espera o
 # usuário digitar uma tecla para encerrar a exibição da figura
