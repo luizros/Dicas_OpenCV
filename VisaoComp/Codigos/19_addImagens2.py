@@ -1,5 +1,5 @@
+# -*- coding: utf-8 -*-
 """
-
 Com a função add também podemos somar a intensidade de cor
 para cada pixel da nossa imagem 
 

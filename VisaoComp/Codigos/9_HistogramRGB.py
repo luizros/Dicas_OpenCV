@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 ------------------------------------------------------------------
 Titulo: Histogramas de imagens RGB usando OPENCV e Pyplot        -

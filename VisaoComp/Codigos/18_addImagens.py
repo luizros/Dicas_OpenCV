@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Vamos trabalhar agora com a operação de adição. ELa consiste 
 em somar os valores dos pixels de uma imagem com outra(s), o

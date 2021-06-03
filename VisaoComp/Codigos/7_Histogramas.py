@@ -1,5 +1,5 @@
+# -*- coding: utf-8 -*-
 """"
-
 ------------------------------------------------------------------
 Titulo: Histogramas de imagens                                   -
 Compania: Universidade de Brasília                               -

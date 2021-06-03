@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 ------------------------------------------------------------------
 Titulo: Trabalhando com imagens em tons de cinza                 -

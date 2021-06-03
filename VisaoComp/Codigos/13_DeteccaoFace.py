@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import cv2
 
 imagem = cv2.imread("VisaoComp/Imagens/lena.jpg")

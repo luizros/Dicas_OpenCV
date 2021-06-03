@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import cv2
 
 captura = cv2.VideoCapture(0)
