@@ -1,11 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-------------------------------------------------------------------
-Titulo: Trabalhando com imagens em tons de cinza                 -
-Compania: Universidade de Brasília                               -
-Autor: Unbetables        Update: Luiz Felipe  Date: 20/05       -    
-------------------------------------------------------------------
+Espaço de cores cinza                                         
 
+---------------------------------------------------------------------
 Curiosidade
 
 É válido mencionar que a imagem em tons de cinza, após a conversão,
@@ -14,6 +11,7 @@ de e azul. Nessa soma, os canais vermelho e verde apresentam um peso
 (coeficiente de ponderação) maior quando comparado ao canal azul, jus
 tamente pelo fato do olho humano ser mais sensível a essas cores.
 
+---------------------------------------------------------------------
 """
 import cv2
 

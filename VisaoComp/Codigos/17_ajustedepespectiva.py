@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 ------------------------------------------------------------------
-Titulo: Transformações geométricas                               -
-Compania: Universidade de Brasília                               -
-Autor: Unbetables        Update: Luiz Felipe  Date: 21/05        -    
+Titulo: Transformações geométricas                               -                           -
+Autor: UnBetables        Update: Luiz Felipe  Date: 21/05        -    
 ------------------------------------------------------------------
 
 O posicionamento incorreto da lente ou até mesmo o balanço da câmera 

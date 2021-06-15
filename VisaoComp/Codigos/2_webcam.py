@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-------------------------------------------------------------------
-Titulo: Carregando videos da webcam                              -
-Compania: Universidade de Brasília                               -
-Autor: Unbetables        Update: Luiz Felipe  Date: 08/05        -    
-------------------------------------------------------------------
+Capturando com videos com a webcam
 """
 
 import numpy as np

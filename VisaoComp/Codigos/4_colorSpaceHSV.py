@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-------------------------------------------------------------------
-Titulo: Trabalhando com imagens no espaço HSV                    -
-Compania: Universidade de Brasília                               -
-Autor: Unbetables        Update: Luiz Felipe  Date: 08/05        -    
-------------------------------------------------------------------
+Espaço de cores HSV
 
 **********************Sistema de cores HSV***********************
 
@@ -23,6 +19,7 @@ V(Value)
 
 Este valor é referente ao brilho da cor, à luminosidade ou
 escala e claridade. 
+
 """
 
 import cv2

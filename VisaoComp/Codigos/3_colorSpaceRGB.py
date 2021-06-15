@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-------------------------------------------------------------------
-Titulo: Trabalhando com imagens no espaço RGB                    -
-Compania: Universidade de Brasília                               -
-Autor: Unbetables        Update: Luiz Felipe  Date: 21/05        -    
-------------------------------------------------------------------
+Espaço de cores RGB
 
 """
 import cv2
@@ -25,9 +21,9 @@ cv2.imshow("Canal Verde", verde)
 cv2.imshow("Canal Vermelho", vermelho)
 
 #Salvando as imagens dos canais separadamente
-cv2.imwrite("VisaoComp/Imagens/frutas-canal-vermelho.jpeg",	vermelho)
-cv2.imwrite("VisaoComp/Imagens/frutas-canal-verde.jpeg", verde)
-cv2.imwrite("VisaoComp/Imagens/frutas-canal-azul.jpeg", azul)
+cv2.imwrite("VisaoComp/Imagens/lena-canal-vermelho.jpeg",	vermelho)
+cv2.imwrite("VisaoComp/Imagens/lena-canal-verde.jpeg", verde)
+cv2.imwrite("VisaoComp/Imagens/lena-canal-azul.jpeg", azul)
 
 imagem = cv2.merge((azul,verde,vermelho))
 cv2.imshow("Imagem combinada", imagem)

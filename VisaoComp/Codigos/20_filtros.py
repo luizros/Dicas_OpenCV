@@ -14,7 +14,7 @@ Filtro: Filtro Gaussiana
 
 Assim como o filtro de média, o gaussiano também é um filtro li
 near, passa-baixas.Três parâmetros são necessários para execução
-desse método.O primeiro deles é a imagem a ser tratada; o segun
+desse método. O primeiro deles é a imagem a ser tratada; o segun
 do, a dimensão da matriz que representa a máscara de filtragem; 
 e o último, o grau de suavização.
 
@@ -41,6 +41,7 @@ img_gaussian = cv2.GaussianBlur(img_ruido, (5,5),0)
 # Aplicando o filtro Mediana
 img_median = cv2.medianBlur(img_ruido, 5)
 
+# Outros filtros:
 # Aplicando o filtro Bilateral
 img_bilateral = cv2.bilateralFilter(img_ruido, 9, 75,75)
 
