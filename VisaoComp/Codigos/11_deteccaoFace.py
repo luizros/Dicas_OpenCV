@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+Detector de face usando Haarcascade em imagens
+"""
 import cv2
 
 imagem = cv2.imread("VisaoComp/Imagens/lena.jpg")

@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+Realce de bordas
+"""
 import cv2
 
 img = cv2.imread('VisaoComp/Imagens/parking.png')

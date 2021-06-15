@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+"""
+Limiarização 
+"""
 import cv2 as cv
 
 img = cv.imread('VisaoComp/Imagens/limiar.png') # Carregando em tons de cinza

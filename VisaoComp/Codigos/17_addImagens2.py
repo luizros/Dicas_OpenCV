@@ -22,7 +22,6 @@ cv2.imshow("Imagem Escura", imagemEscura)
 
 # Vamos fazer os histogramas para visualizar essas imagens
 cv2.waitKey(0)
-cv2.destroyAllWindows()
 
 plt.figure("Histograma Imagem Original")
 plt.hist(imagem.ravel(),256,[0,256])
@@ -35,4 +34,4 @@ plt.hist(imagemEscura.ravel(),256,[0,256])
 
 plt.show()
 cv2.waitKey(0)
-cv2.destroyAllWindows()
+

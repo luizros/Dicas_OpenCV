@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Tratamento de imagens com ruídos
+Filtragem de imagens
 
 Filtro: Filtro Media
 
