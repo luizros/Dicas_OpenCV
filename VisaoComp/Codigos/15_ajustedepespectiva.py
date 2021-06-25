@@ -13,6 +13,7 @@ nam-se ainda mais perceptíveis. Para corrigir as distorções de perspecti
 va, podemos usar a função  warpPerspective  da biblioteca OpenCV. Ela 
 ajusta a perspectiva de uma imagem tendo como referência uma matriz
 predefinida de pontos, gerada pela função getPerspectiveTransform.
+
 """
 
 import cv2
