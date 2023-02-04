@@ -4,7 +4,7 @@ Limiarização
 """
 import cv2 as cv
 
-img = cv.imread('VisaoComp/Imagens/limiar.png') # Carregando em tons de cinza
+img = cv.imread('../Imagens/limiar.png') # Carregando em tons de cinza
 
 limiar, imgLimiar = cv.threshold(img, 180, 255, cv.THRESH_BINARY) 
 

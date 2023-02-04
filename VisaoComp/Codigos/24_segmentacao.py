@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import cv2
 
-img = cv2.imread("VisaoComp/Imagens/cafe.jpeg", 0)
+img = cv2.imread("../Imagens/cafe.jpeg", 0)
 
 metodo = cv2.THRESH_BINARY_INV
 

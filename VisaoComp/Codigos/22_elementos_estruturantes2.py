@@ -8,7 +8,7 @@ import cv2
 #   dilatada, ou seja, o objeto do primeiro plano ficará maior
 #   do que era inicialmente.
 
-imagemOriginal = cv2.imread("VisaoComp/Imagens/Circulos.png", 0)
+imagemOriginal = cv2.imread("../Imagens/Circulos.png", 0)
 
 elementoEstruturante1 = cv2.getStructuringElement(cv2.MORPH_RECT, (7,7))
 elementoEstruturante2 = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (7,7))

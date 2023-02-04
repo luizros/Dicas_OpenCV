@@ -19,7 +19,7 @@ import cv2
 import cv2
 
 
-imagem = cv2.imread("VisaoComp/Imagens/lena.jpg")
+imagem = cv2.imread("../Imagens/lena.jpg")
 
 # aqui obtemos as dimensões da imagem
 linhas, colunas = imagem.shape[:2]

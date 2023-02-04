@@ -20,7 +20,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
-imagem = cv2.imread("VisaoComp/Imagens/sudoku.jpg")
+imagem = cv2.imread("../Imagens/sudoku.jpg")
 
 #use o imshow do matplotlib para saber os pontos de interesse
 #plt.imshow(cv2.cvtColor(imagem, cv2.COLOR_BGR2RGB))

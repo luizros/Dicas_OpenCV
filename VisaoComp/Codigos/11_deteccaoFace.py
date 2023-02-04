@@ -4,9 +4,9 @@ Detector de face usando Haarcascade em imagens
 """
 import cv2
 
-imagem = cv2.imread("VisaoComp/Imagens/lena.jpg")
+imagem = cv2.imread("../Imagens/lena.jpg")
 
-detector = cv2.CascadeClassifier('VisaoComp/Codigos/haarcascade_frontalface_default.xml')
+detector = cv2.CascadeClassifier('../Codigos/haarcascade_frontalface_default.xml')
 
 img = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
 

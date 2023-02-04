@@ -16,7 +16,7 @@ tamente pelo fato do olho humano ser mais sensível a essas cores.
 import cv2
 
 # Ler imagem. Lembre de colocar o caminho correto da pasta!
-imagem = cv2.imread("Imagens/lena.jpg") 
+imagem = cv2.imread("../Imagens/lena.jpg") 
 
 # Converte de RGB para tons de cinza
 imagem = cv2.cvtColor(imagem, cv2.COLOR_RGB2GRAY) 

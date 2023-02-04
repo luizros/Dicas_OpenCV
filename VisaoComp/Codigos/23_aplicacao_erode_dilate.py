@@ -2,7 +2,7 @@
 
 import cv2
 
-img = cv2.imread("VisaoComp/Imagens/CirculosRuido.png", 0)
+img = cv2.imread("../Imagens/CirculosRuido.png", 0)
 
 elemento_estruturante = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5,5))
 

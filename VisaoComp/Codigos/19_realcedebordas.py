@@ -4,7 +4,7 @@ Realce de bordas
 """
 import cv2
 
-img = cv2.imread('VisaoComp/Imagens/parking.png')
+img = cv2.imread('../Imagens/parking.png')
 
 # Operador de sobel
 sobelx = cv2.Sobel(img,cv2.CV_8U,1,0,ksize=3)

@@ -7,8 +7,8 @@ import cv2
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-imagem = cv2.imread('VisaoComp/Imagens/frutas3.jpg')
-img = cv2.imread('VisaoComp/Imagens/frutas2.jpg')
+imagem = cv2.imread('../Imagens/frutas3.jpg')
+img = cv2.imread('../Imagens/frutas2.jpg')
 
 color = ('b','g','r') # Criamos uma tupla para usarmos no nosso programa
 

@@ -28,7 +28,7 @@ Para manter a imagem com a mesma dimensão, basta atribuir o valor 1.
 import cv2
 
 
-imagem = cv2.imread("VisaoComp/Imagens/lena.jpg")
+imagem = cv2.imread("../Imagens/lena.jpg")
 
 # aqui obtemos as dimensões da imagem
 linhas, colunas, p = imagem.shape

@@ -8,15 +8,15 @@ no final resultará em uma nova imagem.
 import cv2
 
 
-imagem1 = cv2.imread("VisaoComp/Imagens/desenho1.png")
-imagem2 = cv2.imread("VisaoComp/Imagens/desenho2.png")
+imagem1 = cv2.imread("../Imagens/desenho1.png")
+imagem2 = cv2.imread("../Imagens/desenho2.png")
 
 # Somando as duas imagens. Utilizamos a função add que recebe
 # dois parâmetro que são as nossas duas imagens
 imagem = cv2.add(imagem1,imagem2)
 
 # Salvando nossa nova imagem
-cv2.imwrite("VisaoComp/Imgens/desenho3",imagem)
+cv2.imwrite("../Imgens/desenho3",imagem)
 
 # Exibindo nossa imagem
 cv2.imshow("Imagem Nova", imagem)

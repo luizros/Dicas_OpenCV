@@ -2,7 +2,7 @@
 import cv2
 
 captura = cv2.VideoCapture(0)
-detector = cv2.CascadeClassifier('VisaoComp/Codigos/haarcascade_frontalface_default.xml')
+detector = cv2.CascadeClassifier('../Codigos/haarcascade_frontalface_default.xml')
 
 while True:
     

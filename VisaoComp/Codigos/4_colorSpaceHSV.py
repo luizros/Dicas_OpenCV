@@ -24,7 +24,7 @@ escala e claridade.
 
 import cv2
 
-imagem = cv2.imread("VisaoComp/Imagens/lena.jpg")
+imagem = cv2.imread("../Imagens/lena.jpg")
 
 imagem = cv2.cvtColor(imagem, cv2.COLOR_BGR2HSV)
 
@@ -37,9 +37,9 @@ cv2.imshow("Canal saturation", saturation)
 cv2.imshow("Canal value", value)
 
 #Salvando magens os canais separados
-cv2.imwrite("Imagens/lena-canal-hue.jpeg", hue)
-cv2.imwrite("Imagens/lena-canal-saturation.jpeg", saturation)
-cv2.imwrite("Imagens/lena-canal-azul.jpeg",  value)
+cv2.imwrite("../Imagens/lena-canal-hue.jpeg", hue)
+cv2.imwrite("../Imagens/lena-canal-saturation.jpeg", saturation)
+cv2.imwrite("../Imagens/lena-canal-azul.jpeg",  value)
 
 # Junta os canais
 lenajunta = cv2.merge((hue,saturation,value)) 

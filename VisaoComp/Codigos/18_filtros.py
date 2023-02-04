@@ -30,7 +30,7 @@ valor inteiro, ímpar e positivo, que indicará a sua intensidade.
 
 import cv2
 
-img_ruido = cv2.imread('VisaoComp/Imagens/lena_ruido.png')
+img_ruido = cv2.imread('../Imagens/lena_ruido.png')
 
 # Aplicando o filtro média
 img_blur = cv2.blur(img_ruido, (5,5))

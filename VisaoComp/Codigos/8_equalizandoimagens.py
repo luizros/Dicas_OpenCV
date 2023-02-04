@@ -13,7 +13,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as grafico
 
-imagemOriginal = cv2.imread("VisaoComp/Imagens/valvula.jpg", 0)
+imagemOriginal = cv2.imread("../Imagens/valvula.jpg", 0)
 imagemEqualizada = cv2.equalizeHist(imagemOriginal)
 
 cv2.imshow("Imagem Original", imagemOriginal)

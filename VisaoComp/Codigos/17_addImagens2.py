@@ -10,7 +10,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-imagem = cv2.imread("VisaoComp/Imagens/valvula.jpg")
+imagem = cv2.imread("../Imagens/valvula.jpg")
 
 imagemClara = cv2.add(imagem, 30)
 imagemEscura = cv2.add(imagem,-30)
