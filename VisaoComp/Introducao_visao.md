@@ -15,7 +15,7 @@ Sendo radiação eletromagnética, a luz apresenta um comportamento ondulatório
 
 Objetos que emitem luz visível são percebidos em função da soma das cores espectrais emitidas. Tal processo de formação é denominado aditivo. O processo aditivo pode ser interpretado como uma combinação variável em proporção de componentes monocromáticas nas faixas espectrais associadas às sensações de cor verde, vermelho e azul, as quais são responsáveis pela formação de todas as demais sensações de cores registradas pelo olho humano. Assim, as cores **verde**, **vermelho** e **azul** são ditas cores *primárias*. Este processo de geração suscitou a concepção de um modelo cromático denominado **RGB (Red, Green, e Blue)**, para o qual a Comissão Internacional de Iluminação **(CIE)** estabeleceu as faixas de comprimento de onda das cores primárias. A combinação dessas cores, duas a duas e em igual intensidade, produz as cores *secundárias*, **Ciano**, **Magenta** e **Amarelo**.
 
-<img src="Imagens/../../Imagens/Cromatico_modelo.png" alt="modelo_cromatico" width="500"/>
+<img src="Imagens/Cromatico_modelo.png" alt="modelo_cromatico" width="500"/>
 
 A cor oposta a uma determinada cor secundária é a cor primária que não entra em sua composição. Assim, o **verde** é oposto ao **magenta**, o **vermelho** ao **ciano** e o **azul** ao **amarelo**. A cor **branca** é gerada pela combinação balanceada de **vermelho**, **verde** e **azul**, assim como pela combinação de qualquer cor secundária com sua oposta. Objetos que não emitem radiação eletromagnética visível própria são, em contraposição, percebidos em função dos pigmentos que os compõem. Assim sendo, objetos diferentemente pigmentados absorvem (ou
 subtraem) da radiação eletromagnética incidente uma faixa do espectro visível, refletindo o
@@ -29,7 +29,7 @@ absorção de uma cor primária da luz branca incidente e da reflexão das demai
 componentes, ou seja, as cores primárias são as secundárias do modelo RGB - Ciano,
 Magenta e Amarelo
 
-<img src="Imagens/../../Imagens/Secundario_modelo.png" alt="Secundario_modelo" width="500"/>
+<img src="Imagens/Secundario_modelo.png" alt="Secundario_modelo" width="500"/>
 
 ## Funcionamento das cameras digitais
 
@@ -45,7 +45,7 @@ Uma vez obtida a intensidade luminosa incidente em cada uma dessas células (cap
 
 Os sensores CMOS seguem o mesmo princípio de funcionamento: atuam convertendo luz em eletricidade e representando cores através de filtros coloridos sobrepostos às células. A principal diferença é que os CMOS, ao capturar a luz incidente sobre as células, não necessitam de um conversor A/D para converter o sinal analógico em um sinal digital.
 
-!['Minha Imagem'](Imagens/../../Imagens/ccd.jpg)  
+!['Minha Imagem'](Imagens/ccd.jpg)  
 *Matriz de capacitores CCD e CMOS*
 ## Imagens Digitais
 
@@ -53,7 +53,7 @@ Entenda como imagem digital, uma matriz de M linhas e N colunas, cada elemento d
 variará de 0 a M-1, enquanto n variará de 0 a N-1. Observe-se o sentido de leitura (varredura)
 e a convenção usualmente adotada na representação espacial de uma imagem digital.
 
-<img src="Imagens/../../Imagens/Matriz_piexels.png" alt="Matriz de pixels" width="500"/>
+<img src="Imagens/Matriz_piexels.png" alt="Matriz de pixels" width="500"/>
 
 Usamos o sistema RGB para representar nosssa imagem, portando, para cada pixel de uma imagem em RGB, temos a intensidade de luz vermelha, verde e azul representada no
 mesmo pixel.  
